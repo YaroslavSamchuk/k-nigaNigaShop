@@ -1,0 +1,99 @@
+header {
+    background-color: black;
+    position: fixed;
+    background-color: #2D8E00;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    border-bottom: 0px solid black;
+    border-top: 0px solid black;
+    border-left: 0px solid black;
+    color: white;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+#secret {
+    opacity: 0;
+    transition: all 1s;
+}
+#tittle {
+    margin-left: 25px;
+    text-shadow: 0px 1px 5px black;
+    transition: all 0.5s;
+}
+
+#tittle:hover, #tittle:focus, #secret:hover, #secret:focus {
+    text-shadow: 0px 5px 5px black;
+    opacity: 1;
+}
+
+header a {
+    color: white;
+}
+
+#links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.menu-element {
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: black;
+    padding: 5px;
+    border-bottom: 3.5px solid rgb(175, 174, 174);
+    margin: 4%;
+    transition: all 1s;
+    transition-delay: 0.2s;
+}
+
+.menu-element:hover, .menu-element:focus {
+    padding: 15px;
+    font-size: 19px;
+    box-shadow: 0px 5px 15px 5px white;
+}
+
+#blood:hover, #blood:focus {
+    padding: 15px;
+    font-size: 19px;
+    box-shadow: 0px 5px 15px 5px rgb(199, 1, 1);
+    border-bottom: 3.5px solid rgb(199, 1, 1);
+}
+
+.href_link img {
+    transition: all 1s;
+}
+
+.href_link img:hover, .href_link img:focus {
+    box-shadow: 0px 0px 10px 5px white;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(30deg, #737574, #9AFFB0);
+}
+
+#tittle {
+    text-decoration: none;
+    font-size: 36px;
+    font-family: Jazz LET, fantasy;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}

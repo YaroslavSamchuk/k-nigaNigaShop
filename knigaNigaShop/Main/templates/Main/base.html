@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'Main/base.css' %}">
+    <script src="{% static 'Main/base.js' %}" defer></script>
+    <title>k-nigaNigaShop</title>
+</head>
+<body>
+    <header>
+        <a id="tittle" href="{% url 'main' %}">k-nigaNigaShop<span id="secret">卐</span></a>
+        <a href="" class="menu-element">Відеокарти</a>
+        <a href="" class="menu-element">Процессори</a>
+        <a href="" class="menu-element">Материнські плати</a>
+        <a href="" class="menu-element">Стероїди для бодібілдерів</a>
+        <a href="" class="menu-element">Готові пк</a>
+        <a href="" class="menu-element">Оперативна пам'ять</a>
+        <a href="" id="blood" class="menu-element">Люди і людські органи</a>
+        <div class="menu-element" id="links">
+            <a class="href_link"href=""><img width="45px" height="45px" src="https://www.svgrepo.com/show/448252/twitter.svg" alt="Twitter SVG File"/></a>
+            <a class="href_link"href=""><img width="45px" height="45px" src="https://www.svgrepo.com/show/503338/facebook.svg" alt="Facebook SVG Vector Icon"/></a>
+            <a class="href_link"href=""><img width="45px" height="45px" src="https://www.svgrepo.com/show/342286/telegram.svg" alt="Telegram SVG File"/></a>
+            <a class="href_link"href=""><img width="45px" height="45px" src="https://www.svgrepo.com/show/513089/youtube-168.svg" alt="Youtube 168 SVG File"/></a>
+            <a class="href_link"href=""><img width="45px" height="45px" src="https://www.svgrepo.com/show/512317/github-142.svg" alt="Github 142 SVG File"/></a>
+            <a class="href_link"href=""><img width="45px" height="45px" src="https://www.svgrepo.com/show/452169/bitcoin.svg" alt="Bitcoin SVG File"/></a>
+            <a class="href_link"href=""><img width="45px" height="45px" src="https://www.svgrepo.com/show/366997/eth.svg" alt="Eth SVG File"/></a>
+            <a class="href_link"href=""><img width="45px" height="45px" src="https://www.svgrepo.com/show/366901/bnb.svg" alt="Bnb SVG File"/></a>
+            <a class="href_link"href=""><img width="45px" height="45px" src="https://www.svgrepo.com/show/366968/doge.svg" alt="Doge SVG File"/></a>
+            <a class="href_link"href=""><img width="45px" height="45px" src="https://www.svgrepo.com/show/475665/paypal-color.svg" alt="Paypal Color SVG File"/></a>
+            <a class="href_link"href=""><img width="45px" height="45px" src="https://www.svgrepo.com/show/367246/trx.svg" alt="Trx SVG File"/></a>
+        </div>
+        
+    </header>
+    <main>
+        {% block main %}
+        {% endblock main %}
+    </main>
+</body>
+</html>
