@@ -11,6 +11,8 @@ https://www.figma.com/file/Ft9pfyDs8S3FNc13edseba/Untitled?type=design&node-id=0
 Our figma design file can give you representation of our site
 If you want to supprot us click [here](#tea-link)
 
+
+
 # Creators:
 - YaroslavSamchuk (Team Leader, Ideas Generator, 卐)
 - YaroslavTelius (Ideas Generator, Coder)
@@ -18,6 +20,8 @@ If you want to supprot us click [here](#tea-link)
 ## Supported:
 - DmitriyLarin
 - NikolaiScripnik
+
+
 
 # Buy me a cup of tea:
 ## [Tea Link🥰](https://www.elgiganten.dk/product/gaming/gaming-pc/stationar-gaming-computer/pcspecialist-core-200-r5-5165123050-stationar-gaming-computer/636241?srsltid=AfmBOooOzRf_H7azM7VS8NCcFq9OWJSFpuThKDIYoUeebtXpwXaN8an7K0s)
