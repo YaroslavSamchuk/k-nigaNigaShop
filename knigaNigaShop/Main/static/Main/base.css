@@ -77,6 +77,13 @@ header a {
     margin: 3px;
 }
 
+.href_link {
+    border-radius: 50%;
+}
+.href_link img {
+    border-radius: 50%;
+}
+
 body {
     display: flex;
     flex-direction: row;
